@@ -2,6 +2,7 @@ import gradio as gr
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv, find_dotenv
+import requests
 
 load_dotenv(find_dotenv())
 
